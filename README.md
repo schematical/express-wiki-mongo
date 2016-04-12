@@ -4,6 +4,7 @@ A mongo data store for my other npm module `express-wiki` found at https://githu
 ##Setup:
 ###Pass it an existing Mongoose Object:
 ```
+var ExpressWikiMongoose = require('express-wiki-mongoose');
 var mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost/test');
 
